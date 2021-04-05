@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuc hanh Form</title>
+    <style>
+        .wufoo {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get" class="wufoo">
+    <h3>Order Form</h3><br>
+        <p><b>What would you like to buy</b></p><br>
+        <select>
+            <option value=""></option>
+            <option>Mercedes</option>
+            <option>Ferarri</option>
+            <option>Lamborghini</option>
+        </select>
+        <p><b>How many would you like to order?</b></p>
+        <label>
+            <input type="radio" value="rd"> 1-10$ <br>
+            <input type="radio" value="rd"> 10-20$<br>
+            <input type="radio" value="rd"> 20-30$<br>
+        </label>
+        <fieldset>
+            <legend><b>Name</b> <span style="color: red">*</span> </legend>
+            <input type="text" name="firstname" placeholder="Firstname" size="20">
+            <input type="text" name="lastname" placeholder="Lastname" size="20"><br>
+            <p><b>Email</b><span style="color: red">*</span></p>
+            <input type="text" name="email" placeholder="Email" size="20"><br>
+            <p><b>Phone number <span style="color: red">*</span> </b></p>
+            <label><input type="text" name="phone1" size="5"> -
+            <input type="text" name="phone2" size="5"> -
+            <input type="text" name="phone3" size="5">
+            </label>
+            <br><button type="submit" style="color: black"> Submit</button>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
